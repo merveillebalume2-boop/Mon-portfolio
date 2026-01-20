@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - MERVEILLE BALUME</title>
+    
+    <!-- ICONS & FONTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- VOTRE CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Chargement...</div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <a href="#home" class="logo">MBK<span>coding</span></a>
+        <i id="menu-burger" class='bx bx-menu'></i>
+        <nav class="navigation">
+            <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+            <a href="#about"><i class="fas fa-user"></i> À propos</a>
+            <a href="#services"><i class="fas fa-briefcase"></i> Services</a>
+            <a href="#portfolio"><i class="fas fa-folder-open"></i> Portfolio</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3><i class="fas fa-hand-wave"></i> Hello je suis</h3>
+            <h1>MERVEILLE BALUME</h1>
+            <h3>et je suis <span class="multiple-text"></span></h3>
+            <p>Développeur web passionné avec une expertise en création de solutions digitales innovantes. Je combine créativité et compétences techniques pour transformer vos idées en réalité.</p>
+            
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <div class="buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Me contacter
+                </a>
+                <a href="cv" class="btn btn-secondary" id="download-cv">
+                    <i class="fas fa-download"></i> Télécharger CV
+                </a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./kajkey.jpg" alt="Photo de profile">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="À propos">
+        </div>
+
+        <div class="about-content">
+            <h2 class="section-title"><i class="fas fa-user-circle"></i> À <span>propos</span></h2>
+            <h3><i class="fas fa-code"></i> Développeur web frontend</h3>
+            <p>Je suis un développeur web passionné avec plus de 1 ans d'expérience dans la création d'applications web modernes et responsives. Mon expertise couvre le frontend et le backend avec les dernières technologies.</p>
+            
+            <div class="skills">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <span>React</span>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" data-width="75"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node-js"></i>
+                    <span>Node.js</span>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" data-width="70"></div>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i> Mes <span>Services</span></h2>
+        
+        <div class="services-container">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Développement Web</h3>
+                <p>Création de sites web modernes et responsives avec les dernières technologies.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h3>Applications Mobile</h3>
+                <p>Développement d'applications mobiles cross-platform performantes.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <p>Design d'interfaces utilisateur intuitives et expériences utilisateur optimales.</p>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <h3>E-commerce</h3>
+                <p>Création de boutiques en ligne sécurisées et optimisées pour les conversions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title"><i class="fas fa-folder-open"></i> Mon <span>Portfolio</span></h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Projet 1">
+                <div class="portfolio-overlay">
+                    <h3>Site E-commerce</h3>
+                    <p>Voir les détails</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Projet 2">
+                <div class="portfolio-overlay">
+                    <h3>Application de Gestion</h3>
+                    <p>Voir les détails</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Projet 3">
+                <div class="portfolio-overlay">
+                    <h3>Blog Personnel</h3>
+                    <p>Voir les détails</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2 class="section-title"><i class="fas fa-envelope"></i> Me <span>Contacter</span></h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Adresse</h3>
+                        <p>GOMA, DRC</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>merveillebalume2@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Téléphone</h3>
+                        <p>+243 978579134</p>
+                    </div>
+                </div>
+            </div>
+            
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Votre email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" placeholder="Sujet" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Envoyer le message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>MBK<span>coding</span></h3>
+                <p>Développeur Web Passionné</p>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Suivez-moi</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Liens rapides</h4>
+                <a href="#home">Accueil</a>
+                <a href="#about">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> MERVEILLE BALUME. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP BUTTON -->
+    <button class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- THEME SWITCHER -->
+    <button class="theme-switcher">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="app.js"></script>
+</body>
+</html>
