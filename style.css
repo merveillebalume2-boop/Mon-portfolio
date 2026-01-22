@@ -1,6 +1,6 @@
-/* ===========================================
+/* 
    RESET & BASE STYLES
-   =========================================== */
+    */
 * {
     margin: 0;
     padding: 0;
@@ -43,9 +43,9 @@ section {
     min-height: auto;
 }
 
-/* ===========================================
+/* 
    PRELOADER
-   =========================================== */
+    */
 .preloader {
     position: fixed;
     top: 0;
@@ -89,9 +89,9 @@ section {
     font-weight: 500;
 }
 
-/* ===========================================
+/* 
    HEADER & NAVIGATION
-   =========================================== */
+    */
 header {
     position: fixed;
     top: 0;
@@ -177,9 +177,9 @@ header.sticky {
     width: 100%;
 }
 
-/* ===========================================
+/* 
    HOME SECTION
-   =========================================== */
+    */
 .home {
     display: flex;
     align-items: center;
@@ -335,9 +335,9 @@ header.sticky {
     50% { transform: translateY(-20px); }
 }
 
-/* ===========================================
+/* 
    ABOUT SECTION
-   =========================================== */
+    */
 .about {
     display: flex;
     align-items: center;
@@ -455,9 +455,9 @@ header.sticky {
     transition: width 1.5s ease-in-out;
 }
 
-/* ===========================================
+/* 
    SERVICES SECTION
-   =========================================== */
+    */
 .services-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -496,9 +496,9 @@ header.sticky {
     line-height: 1.6;
 }
 
-/* ===========================================
+/* 
    PORTFOLIO SECTION
-   =========================================== */
+    */
 .portfolio {
     background: var(--white-color);
 }
@@ -566,9 +566,9 @@ header.sticky {
     font-size: 1rem;
 }
 
-/* ===========================================
+/* 
    CONTACT SECTION
-   =========================================== */
+    */
 .contact-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -647,9 +647,9 @@ header.sticky {
     min-height: 150px;
 }
 
-/* ===========================================
+/* 
    FOOTER
-   =========================================== */
+    */
 footer {
     background: var(--dark-color);
     color: var(--white-color);
@@ -722,9 +722,9 @@ footer {
     color: #ccc;
 }
 
-/* ===========================================
+/* 
    BUTTONS FLOATS
-   =========================================== */
+    */
 .back-to-top,
 .theme-switcher {
     position: fixed;
@@ -767,9 +767,9 @@ footer {
     transform: translateY(-3px);
 }
 
-/* ===========================================
+/* 
    DARK THEME
-   =========================================== */
+    */
 body.dark-theme {
     --bg-color: #1a1a1a;
     --text-color: #ffffff;
@@ -816,9 +816,9 @@ body.dark-theme .skill-progress {
     background: #4a5568;
 }
 
-/* ===========================================
+/* 
    RESPONSIVE DESIGN
-   =========================================== */
+    */
 
 /* Tablet & Small Laptop */
 @media (max-width: 1024px) {

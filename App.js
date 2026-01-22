@@ -1,6 +1,6 @@
-// ===========================================
+
 // VARIABLES GLOBALES
-// ===========================================
+
 const menuBurger = document.getElementById('menu-burger');
 const navigation = document.querySelector('.navigation');
 const preloader = document.querySelector('.preloader');
@@ -14,9 +14,9 @@ const navLinks = document.querySelectorAll('.navigation a');
 const portfolioItems = document.querySelectorAll('.portfolio-item');
 const skillProgressBars = document.querySelectorAll('.skill-progress-bar');
 
-// ===========================================
+
 // PRELOADER
-// ===========================================
+
 window.addEventListener('load', () => {
     setTimeout(() => {
         preloader.classList.add('loaded');
@@ -28,9 +28,8 @@ window.addEventListener('load', () => {
     }, 1000);
 });
 
-// ===========================================
-// MENU BURGER
-// ===========================================
+
+// MENU BURGEUR
 menuBurger.addEventListener('click', () => {
     navigation.classList.toggle('active');
     menuBurger.classList.toggle('bx-x');
@@ -57,9 +56,9 @@ document.addEventListener('click', (e) => {
     }
 });
 
-// ===========================================
+
 // SCROLL SPY NAVIGATION
-// ===========================================
+
 window.addEventListener('scroll', () => {
     // Header sticky
     const header = document.querySelector('header');
@@ -90,9 +89,8 @@ window.addEventListener('scroll', () => {
     animateSkillsOnScroll();
 });
 
-// ===========================================
+
 // ANIMATION TEXTE TYPED
-// ===========================================
 document.addEventListener('DOMContentLoaded', function() {
     if (document.querySelector('.multiple-text')) {
         const typed = new Typed('.multiple-text', {
@@ -112,9 +110,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
-// ===========================================
+
 // ANIMATION DES COMPÉTENCES
-// ===========================================
+
 function animateSkillsOnScroll() {
     const aboutSection = document.getElementById('about');
     const aboutPosition = aboutSection.getBoundingClientRect().top;
@@ -128,9 +126,9 @@ function animateSkillsOnScroll() {
     }
 }
 
-// ===========================================
+
 // BACK TO TOP
-// ===========================================
+
 backToTopBtn.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
@@ -138,9 +136,9 @@ backToTopBtn.addEventListener('click', () => {
     });
 });
 
-// ===========================================
+
 // THEME SWITCHER
-// ===========================================
+
 themeSwitcher.addEventListener('click', () => {
     document.body.classList.toggle('dark-theme');
     
@@ -168,9 +166,9 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// ===========================================
+
 // PORTFOLIO MODAL
-// ===========================================
+
 portfolioItems.forEach(item => {
     item.addEventListener('click', () => {
         // Créer le modal
@@ -235,9 +233,9 @@ portfolioItems.forEach(item => {
     });
 });
 
-// ===========================================
+
 // FORMULAIRE DE CONTACT
-// ===========================================
+
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -272,9 +270,9 @@ function validateEmail(email) {
     return re.test(email);
 }
 
-// ===========================================
+
 // NOTIFICATIONS
-// ===========================================
+
 function showNotification(message, type) {
     const notification = document.createElement('div');
     notification.className = `notification ${type}`;
@@ -331,9 +329,9 @@ function showNotification(message, type) {
     }, 5000);
 }
 
-// ===========================================
+
 // TÉLÉCHARGEMENT CV
-// ===========================================
+
 if (downloadCvBtn) {
     
 }
