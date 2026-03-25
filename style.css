@@ -46,6 +46,7 @@ html {
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    scroll-padding-top: 9rem; /* Évite que le menu ne cache les titres des sections */
 }
 
 body {
